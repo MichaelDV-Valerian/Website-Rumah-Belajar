@@ -31,7 +31,10 @@
         <div class="container">
             <h1>Rumah Belajar Mitutoria</h1>
             <p>Bimbingan belajar privat berkualitas dengan pendekatan personal untuk menumbuhkan prestasi akademik dan non-akademik siswa</p>
+
+            <!-- Link gform join -->
             <a href="#" class="btn">Daftar Sekarang</a>
+
         </div>
     </section>
 
@@ -45,6 +48,8 @@
                 <div class="about-img">
                     <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/8654ab24-7892-4906-9052-154f17a12dca.png" alt="Siswa sedang belajar di Ruang Kelas yang nyaman dengan mentor yang ramah">
                 </div>
+
+                <!-- Visi Misi -->
                 <div class="about-text">
                     <h3>Visi & Misi</h3>
                     <p>Rumah Belajar Mitutoria adalah bimbingan belajar privat yang didirikan pada tahun 2015 dengan tujuan membantu siswa mencapai potensi terbaik mereka dalam bidang akademik maupun olimpiade sains.</p>
@@ -54,26 +59,35 @@
             </div>
         </div>
     </section>
-
+ 
+<!-- Achievements Section -->
     <section id="achievements" class="achievements">
         <div class="container">
+
+            <!-- Achievements Title and Description -->
             <div class="section-title">
                 <h2>Prestasi Siswa</h2>
                 <p>Berbagai penghargaan dan kejuaraan yang telah diraih oleh siswa kami</p>
             </div>
+
+            <!-- Achievement Cards -->
             <div class="achievement-cards">
+
                 <div class="achievement-card">
                     <h3>Olimpiade Sains Nasional</h3>
                     <p>15 Medali Emas, 22 Medali Perak, dan 18 Medali Perunggu dalam berbagai bidang seperti Matematika, Fisika, Kimia, dan Biologi</p>
                 </div>
+
                 <div class="achievement-card">
                     <h3>Kompetisi Sains Internasional</h3>
                     <p>8 siswa mewakili Indonesia di International Science Olympiad (IMO, IPhO, IChO, IBO) dengan 3 medali perak dan 5 medali perunggu</p>
                 </div>
+
                 <div class="achievement-card">
                     <h3>Kompetisi Robotik</h3>
                     <p>Juara 1 National Robotics Competition dan perwakilan Indonesia di World Robot Olympiad</p>
                 </div>
+
                 <div class="achievement-card">
                     <h3>Kompetisi Debat</h3>
                     <p>Juara 1 National School Debating Championship dan perwakilan Asia di World Schools Debating Championship</p>
@@ -82,12 +96,15 @@
         </div>
     </section>
 
+    <!-- Statistics Section -->
     <section id="stats" class="stats">
         <div class="container">
+            <!-- Statistics Title and Description -->
             <div class="section-title">
                 <h2>Statistik Kami</h2>
                 <p>Pencapaian Rumah Belajar Mitutoria dalam angka</p>
             </div>
+            <!-- Statistics Cards -->
             <div class="stats-container">
                 <div class="stat-item">
                     <div class="number">250+</div>
@@ -138,23 +155,6 @@
             </div>
         </div>
     </footer>
-
-    <script>
-        // Hamburger menu for mobile
-        document.querySelector('.hamburger').addEventListener('click', function() {
-            document.querySelector('.nav-links').classList.toggle('active');
-        });
-
-        // Smooth scrolling
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                
-                document.querySelector(this.getAttribute('href')).scrollIntoView({
-                    behavior: 'smooth'
-                });
-            });
-        });
-    </script>
+    <script src="js\script.js"></script>
 </body>
 </html>
